@@ -1,0 +1,10 @@
+C:\Users\Abdelrhman Ibrahim\source\repos\Fexa\Fexa\x64\Debug\Fexa.vcxproj.AssemblyReference.cache
+C:\Users\Abdelrhman Ibrahim\source\repos\Fexa\Fexa\x64\Debug\Fexa.AddCat.resources
+C:\Users\Abdelrhman Ibrahim\source\repos\Fexa\Fexa\x64\Debug\Fexa.AddClients.resources
+C:\Users\Abdelrhman Ibrahim\source\repos\Fexa\Fexa\x64\Debug\Fexa.AddProducts.resources
+C:\Users\Abdelrhman Ibrahim\source\repos\Fexa\Fexa\x64\Debug\Fexa.loh.resources
+C:\Users\Abdelrhman Ibrahim\source\repos\Fexa\Fexa\x64\Debug\Fexa.MyForm.resources
+C:\Users\Abdelrhman Ibrahim\source\repos\Fexa\Fexa\x64\Debug\Fexa.ProductCard.resources
+C:\Users\Abdelrhman Ibrahim\source\repos\Fexa\Fexa\x64\Debug\Fexa.vcxproj.GenerateResource.cache
+C:\Users\Abdelrhman Ibrahim\source\repos\Fexa\Fexa\x64\Debug\Fexa.AddOpex1.resources
+C:\Users\Abdelrhman Ibrahim\source\repos\Fexa\Fexa\x64\Debug\Fexa.AddAdmin.resources

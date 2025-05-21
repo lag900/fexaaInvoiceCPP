@@ -1,0 +1,90 @@
+  Fexa.AddAdmin.resources - Embedded, ContainedInManifestFile, 
+  Fexa.AddCat.resources - Embedded, ContainedInManifestFile, 
+  Fexa.AddClients.resources - Embedded, ContainedInManifestFile, 
+  Fexa.AddOpex1.resources - Embedded, ContainedInManifestFile, 
+  Fexa.AddProducts.resources - Embedded, ContainedInManifestFile, 
+  Fexa.loh.resources - Embedded, ContainedInManifestFile, 
+  Fexa.MyForm.resources - Embedded, ContainedInManifestFile, 
+  Fexa.ProductCard.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Fexa, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.ComponentModel.DataAnnotations, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35: 
+	hash=None, flags=None
+Assembly System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Database: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    GetCon(): PrivateScope, Public, Static, HideBySig
+Class Fexa.ProductCard: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.UserControl
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Events:
+    AddToInvoiceHandler OnAddToInvoice: SpecialName
+  Methods:
+    add_OnAddToInvoice(AddToInvoiceHandler): PrivateScope, Public, HideBySig, SpecialName
+    remove_OnAddToInvoice(AddToInvoiceHandler): PrivateScope, Public, HideBySig, SpecialName
+    SetCardData(String, String, String, String, String, Int32): PrivateScope, Public, HideBySig
+    GetProductName(): PrivateScope, Public, HideBySig
+Class Fexa.ProductCard+AddToInvoiceHandler: AutoLayout, AnsiClass, Class, NestedPublic, Sealed, BeforeFieldInit
+  :System.MulticastDelegate
+    Void .ctor(System.Object, IntPtr): PrivateScope, Public, SpecialName, RTSpecialName
+  Methods:
+    Invoke(String, String, String, Int32, String, String): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    BeginInvoke(String, String, String, Int32, String, String, AsyncCallback, Object): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+    EndInvoke(IAsyncResult): PrivateScope, Public, Final, Virtual, VtableLayoutMask
+Class ClientController: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    LoadClients(DataGridView, Image, Image): PrivateScope, Public, Static, HideBySig
+    LoadCat(DataGridView, Image, Image): PrivateScope, Public, Static, HideBySig
+    LoadProducts(DataGridView, Image, Image, String): PrivateScope, Public, Static, HideBySig
+    LoadProductCards(FlowLayoutPanel, String): PrivateScope, Public, Static, HideBySig
+    LoadOpex(DataGridView): PrivateScope, Public, Static, HideBySig
+    LoadAdmin(DataGridView): PrivateScope, Public, Static, HideBySig
+Class Fexa.AddAdmin: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.DataGridView): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Fexa.AddOpex1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.DataGridView): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Fexa.AddProducts: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.DataGridView, System.Drawing.Image, System.Drawing.Image, System.Windows.Forms.FlowLayoutPanel): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetProductData(String, String, String, String, String, String, String, String): PrivateScope, Public, HideBySig
+Class Fexa.AddCat: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.DataGridView, System.Drawing.Image, System.Drawing.Image): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetCatData(String, String): PrivateScope, Public, HideBySig
+Class Fexa.AddClients: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.Windows.Forms.DataGridView, System.Drawing.Image, System.Drawing.Image): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    SetClientData(String, String, String, String, String, String): PrivateScope, Public, HideBySig
+Class Fexa.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.DataGridView dataOpex : Public
+    System.Windows.Forms.DataGridView dataAdmin : Public
+    System.Windows.Forms.DataGridView dataProduct : Public
+    System.Windows.Forms.DataGridView data_cat : Public
+    Fexa.MyForm instance : Public, Static
+Class Fexa.loh: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

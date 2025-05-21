@@ -1,0 +1,10 @@
+# Ignore Visual Studio files
+.vs/
+*.sln
+
+# Ignore output and build folders
+x64/
+packages/
+
+# لو مجلد Fexa مش عاوزه يترفع
+Fexa/

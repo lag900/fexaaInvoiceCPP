@@ -1,0 +1,14 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8003: The WindowsSDKDir property is not defined. Some build tools may not be found.
+  AddCat.cpp
+  AddClients.cpp
+  AddProducts.cpp
+  ClientController.cpp
+C:\Users\Abdelrhman Ibrahim\source\repos\Fexa\Fexa\ClientController.cpp(89,133): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+  loh.cpp
+  MyForm.cpp
+  MyFormRun.cpp
+  ProductCard.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  AddCat.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+LINK : fatal error LNK1104: cannot open file 'MSCOREE.lib'
